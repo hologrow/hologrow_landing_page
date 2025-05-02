@@ -14,7 +14,7 @@
       "items": [
         {
           "title": "About",
-          "url": "/",
+          "url": "/#branding",
           "icon": "MdPayment"
         }
       ]
@@ -30,13 +30,13 @@
     "announcement": {
       "label": "Adsmind",
       "title": "🎉Already launched on Shopify &Shoplazza!",
-      "url": "/"
+      "url": "/#branding"
     },
     "buttons": [
       {
         "title": "Get Started",
         "icon": "RiFlashlightFill",
-        "url": "/",
+        "url": "/#branding",
         "target": "_self",
         "variant": "default"
       }
