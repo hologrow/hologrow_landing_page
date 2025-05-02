@@ -1,0 +1,123 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "Adsmind",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Adsmind"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "url": "/",
+          "icon": "MdPayment"
+        }
+      ]
+    },
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": false
+  },
+  "hero": {
+    "title": "Agentic AI Powered Video Growth Engine for Any Bussiness",
+    "highlight_text": "Ship Any",
+    "description": "Become the video growth hacker agent operating system for brands in 2027, reshaping 10 billion shopping decisions a day",
+    "announcement": {
+      "label": "Adsmind",
+      "title": "🎉Already launched on Shopify &Shoplazza!",
+      "url": "/"
+    },
+    "buttons": [
+      {
+        "title": "Get Started",
+        "icon": "RiFlashlightFill",
+        "url": "/",
+        "target": "_self",
+        "variant": "default"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "title": "Adsmind has now been adopted by more clients",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/1.jpg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/2.jpg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/3.jpg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/4.jpg",
+          "alt": "Shadcn/UI"
+        }
+      }
+    ]
+  },
+
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "Adsmind",
+      "description": "Adsmind is an Agentic-AI Growth Engine.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "ShipAny"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • Adsmind All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Friends",
+          "children": [
+            {
+              "title": "Ikarao",
+              "url": "https://ikarao.com/",
+              "target": "_blank"
+            },
+            {
+              "title": "Meeden",
+              "url": "https://meedenart.com/",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
