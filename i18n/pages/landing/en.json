@@ -34,10 +34,10 @@
     },
     "buttons": [
       {
-        "title": "Get Started",
+        "title": "Join in Waitlist",
         "icon": "RiFlashlightFill",
-        "url": "/#branding",
-        "target": "_self",
+        "url": "https://forms.gle/69dthRmFbqVFj4XQ7",
+        "target": "_blank",
         "variant": "default"
       }
     ],
