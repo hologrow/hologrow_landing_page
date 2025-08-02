@@ -70,10 +70,10 @@
     "tip": "🎁 2025年前五折优惠",
     "buttons": [
       {
-        "title": "立即开始",
+        "title": "加入候补名单",
         "icon": "RiFlashlightFill",
-        "url": "/#pricing",
-        "target": "_self",
+        "url": "https://forms.gle/6D97T43qT86aAq958",
+        "target": "_blank",
         "variant": "default"
       },
       {
