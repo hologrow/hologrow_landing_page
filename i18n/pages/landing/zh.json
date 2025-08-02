@@ -47,8 +47,8 @@
     },
     "buttons": [
       {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
+        "title": "获取 Hologrow",
+        "url": "https://hologrow.ai",
         "target": "_blank",
         "variant": "link",
         "icon": "RiArrowRightUpLine"
@@ -573,17 +573,17 @@
   "cta": {
     "name": "cta",
     "title": "启动您的第一个 AI SaaS 创业项目",
-    "description": "从这里开始，使用 ShipAny 启动。",
+    "description": "从这里开始，使用 Hologrow 启动。",
     "buttons": [
       {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
+        "title": "获取 Hologrow",
+        "url": "https://hologrow.ai",
         "target": "_blank",
         "icon": "GoArrowUpRight"
       },
       {
         "title": "阅读文档",
-        "url": "https://docs.shipany.ai",
+        "url": "https://docs.hologrow.ai",
         "target": "_blank",
         "variant": "outline"
       }
@@ -592,15 +592,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。通过丰富的模板和组件快速启动。",
+      "title": "Hologrow",
+      "description": "Hologrow 是一个用于构建 AI 驱动视频内容的个性化增长引擎，为电商提供智能视频解决方案。",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "Hologrow"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny 保留所有权利。",
+    "copyright": "© 2025 • Hologrow 保留所有权利。",
     "nav": {
       "items": [
         {
@@ -628,17 +628,17 @@
           "children": [
             {
               "title": "文档",
-              "url": "https://docs.shipany.ai",
+              "url": "https://docs.hologrow.ai",
               "target": "_blank"
             },
             {
               "title": "组件",
-              "url": "https://shipany.ai/components",
+              "url": "https://hologrow.ai/components",
               "target": "_blank"
             },
             {
               "title": "模板",
-              "url": "https://shipany.ai/templates",
+              "url": "https://hologrow.ai/templates",
               "target": "_blank"
             }
           ]
@@ -688,7 +688,7 @@
         {
           "title": "邮箱",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
+          "url": "mailto:support@hologrow.ai",
           "target": "_self"
         }
       ]
