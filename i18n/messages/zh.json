@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "几小时内构建任何 AI SaaS 创业项目 | ShipAny",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，提供各种模板和组件，帮助您快速启动。",
-    "keywords": "ShipAny, AI SaaS 模板, NextJS 模板"
+    "title": "个性化视频增长引擎 | Hologrow",
+    "description": "Hologrow 是一个用于构建 AI 驱动视频内容的个性化增长引擎，为电商提供智能视频解决方案。",
+    "keywords": "Hologrow, AI 视频, 个性化视频, 电商增长"
   },
   "user": {
     "sign_in": "登录",
@@ -34,7 +34,7 @@
   },
   "my_orders": {
     "title": "我的订单",
-    "description": "在 ShipAny 上购买的订单。",
+    "description": "在 Hologrow 上购买的订单。",
     "no_orders": "未找到订单",
     "tip": "",
     "activate_order": "激活订单",
@@ -82,7 +82,7 @@
   },
   "blog": {
     "title": "博客",
-    "description": "关于 ShipAny 的新闻、资源和更新",
+    "description": "关于 Hologrow 的新闻、资源和更新",
     "read_more_text": "阅读更多"
   },
   "my_invites": {
@@ -93,7 +93,7 @@
     "edit_invite_link": "编辑邀请链接",
     "copy_invite_link": "复制邀请链接",
     "invite_code": "邀请码",
-    "invite_tip": "每邀请 1 位朋友购买 ShipAny，奖励 $50。",
+    "invite_tip": "每邀请 1 位朋友购买 Hologrow，奖励 $50。",
     "invite_balance": "邀请奖励余额",
     "total_invite_count": "总邀请人数",
     "total_paid_count": "已充值人数",

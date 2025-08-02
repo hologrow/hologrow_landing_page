@@ -1,9 +1,9 @@
 {
-  "name": "shipany-template-one",
-  "version": "1.6.0",
+  "name": "hologrow-landing-page",
+  "version": "1.0.0",
   "private": true,
-  "author": "idoubi",
-  "homepage": "https://shipany.ai",
+  "author": "Hologrow",
+  "homepage": "https://hologrow.ai",
   "scripts": {
     "dev": "cross-env NODE_NO_WARNINGS=1 next dev --turbopack",
     "build": "next build",
@@ -13,7 +13,7 @@
     "cf:build": "npx @cloudflare/next-on-pages",
     "cf:preview": "pnpm cf:build && wrangler pages dev",
     "cf:deploy": "pnpm cf:build && wrangler pages deploy",
-    "docker:build": "docker build -f Dockerfile -t shipany-template-one:latest ."
+    "docker:build": "docker build -f Dockerfile -t hologrow-landing-page:latest ."
   },
   "dependencies": {
     "@ai-sdk/deepseek": "^0.1.11",
