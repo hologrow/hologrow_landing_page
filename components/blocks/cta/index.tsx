@@ -28,7 +28,15 @@ export default function CTA({ section }: { section: SectionType }) {
                       target={item.target}
                       className="flex items-center justify-center gap-1"
                     >
-                      {item.title}
+                      {item.titleImage ? (
+                        <img
+                          src={item.titleImage.src}
+                          alt={item.titleImage.alt || item.title}
+                          className={item.titleImage.className || "h-5 w-auto"}
+                        />
+                      ) : (
+                        item.title
+                      )}
                       {item.icon && (
                         <Icon name={item.icon as string} className="size-6" />
                       )}

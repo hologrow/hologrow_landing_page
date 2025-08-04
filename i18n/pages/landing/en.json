@@ -5,7 +5,7 @@
     "brand": {
       "title": "Hologrow",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logoWithName.png",
         "alt": "Hologrow"
       },
       "url": "/"
@@ -20,7 +20,7 @@
       ]
     },
     "show_sign": false,
-    "show_theme": true,
+    "show_theme": false,
     "show_locale": false
   },
   "hero": {
@@ -84,7 +84,7 @@
       "title": "Hologrow",
       "description": "Hologrow is an Agentic-AI Growth Engine.",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logoWithName.png",
         "alt": "Hologrow"
       },
       "url": "/"

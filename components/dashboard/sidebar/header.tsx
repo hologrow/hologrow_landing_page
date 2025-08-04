@@ -13,19 +13,15 @@ export default function ({ brand }: { brand: BrandType }) {
         <DropdownMenu>
           <Link
             href={brand?.url || "javascript:void(0)"}
-            className="flex items-center gap-1 py-2"
+            className="flex items-center py-2"
           >
-            <div className="flex aspect-square size-8 items-center justify-center rounded-lg text-sidebar-primary-foreground">
+            <div className="flex items-center justify-center">
               <img
                 src={brand?.logo?.src}
                 alt={brand?.logo?.alt || brand?.title}
-                className="size-6"
+                className="h-8 w-auto"
               />
             </div>
-            <div className="grid flex-1 text-left text-lg leading-tight">
-              <span className="truncate font-medium">{brand?.title}</span>
-            </div>
-            {/* {open && <SidebarTrigger />} */}
           </Link>
         </DropdownMenu>
       </SidebarMenuItem>

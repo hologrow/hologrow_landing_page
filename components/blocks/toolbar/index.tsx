@@ -18,7 +18,15 @@ export default function Toolbar({ items }: { items?: ButtonType[] }) {
             target={item.target}
             className="flex items-center gap-1"
           >
-            {item.title}
+            {item.titleImage ? (
+              <img
+                src={item.titleImage.src}
+                alt={item.titleImage.alt || item.title}
+                className={item.titleImage.className || "h-4 w-auto"}
+              />
+            ) : (
+              item.title
+            )}
             {item.icon && <Icon name={item.icon} />}
           </Link>
         </Button>

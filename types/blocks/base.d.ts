@@ -16,6 +16,7 @@ export type ButtonSize = "sm" | "md" | "lg";
 
 export interface Button {
   title?: string;
+  titleImage?: Image;
   icon?: string;
   url?: string;
   target?: string;

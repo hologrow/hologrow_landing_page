@@ -5,8 +5,8 @@
     "brand": {
       "title": "Hologrow",
       "logo": {
-        "src": "/logo.png",
-        "alt": "ShipAny"
+        "src": "/logoWithName.png",
+        "alt": "Hologrow"
       },
       "url": "/zh"
     },
@@ -48,6 +48,11 @@
     "buttons": [
       {
         "title": "获取 Hologrow",
+        "titleImage": {
+          "src": "/companyName.png",
+          "alt": "获取 Hologrow",
+          "className": "h-4 w-auto"
+        },
         "url": "https://hologrow.ai",
         "target": "_blank",
         "variant": "link",
@@ -55,7 +60,7 @@
       }
     ],
     "show_sign": true,
-    "show_theme": true,
+    "show_theme": false,
     "show_locale": true
   },
   "hero": {
@@ -577,6 +582,11 @@
     "buttons": [
       {
         "title": "获取 Hologrow",
+        "titleImage": {
+          "src": "/companyName.png",
+          "alt": "获取 Hologrow",
+          "className": "h-5 w-auto"
+        },
         "url": "https://hologrow.ai",
         "target": "_blank",
         "icon": "GoArrowUpRight"
@@ -595,7 +605,7 @@
       "title": "Hologrow",
       "description": "Hologrow 是一个用于构建 AI 驱动视频内容的个性化增长引擎，为电商提供智能视频解决方案。",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logoWithName.png",
         "alt": "Hologrow"
       },
       "url": "/"

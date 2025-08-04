@@ -38,7 +38,13 @@ export default function Hero({ hero }: { hero: HeroType }) {
                 className="mx-auto mb-3 inline-flex items-center gap-3 rounded-full border px-2 py-1 text-sm"
               >
                 {hero.announcement.label && (
-                  <Badge>{hero.announcement.label}</Badge>
+                  <span className="inline-block">
+                    <img
+                      src="/logoWithName.png"
+                      alt={hero.announcement.label}
+                      className="h-4 w-auto"
+                    />
+                  </span>
                 )}
                 {hero.announcement.title}
               </a>
@@ -77,7 +83,15 @@ export default function Hero({ hero }: { hero: HeroType }) {
                         size="lg"
                         variant={item.variant || "default"}
                       >
-                        {item.title}
+                        {item.titleImage ? (
+                          <img
+                            src={item.titleImage.src}
+                            alt={item.titleImage.alt || item.title}
+                            className={item.titleImage.className || "h-5 w-auto"}
+                          />
+                        ) : (
+                          item.title
+                        )}
                         {item.icon && (
                           <Icon name={item.icon} className="ml-1" />
                         )}

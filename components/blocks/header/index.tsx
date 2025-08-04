@@ -45,19 +45,14 @@ export default function Header({ header }: { header: HeaderType }) {
           <div className="flex items-center gap-6">
             <a
               href={header.brand?.url || ""}
-              className="flex items-center gap-2"
+              className="flex items-center"
             >
               {header.brand?.logo?.src && (
                 <img
                   src={header.brand.logo.src}
                   alt={header.brand.logo.alt || header.brand.title}
-                  className="w-8"
+                  className="h-8 w-auto"
                 />
-              )}
-              {header.brand?.title && (
-                <span className="text-xl text-primary font-bold">
-                  {header.brand?.title || ""}
-                </span>
               )}
             </a>
             <div className="flex items-center">
@@ -169,18 +164,13 @@ export default function Header({ header }: { header: HeaderType }) {
 
         <div className="block lg:hidden">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center">
               {header.brand?.logo?.src && (
                 <img
                   src={header.brand.logo.src}
                   alt={header.brand.logo.alt || header.brand.title}
-                  className="w-8"
+                  className="h-8 w-auto"
                 />
-              )}
-              {header.brand?.title && (
-                <span className="text-xl font-bold">
-                  {header.brand?.title || ""}
-                </span>
               )}
             </div>
             <Sheet>
@@ -192,18 +182,13 @@ export default function Header({ header }: { header: HeaderType }) {
               <SheetContent className="overflow-y-auto">
                 <SheetHeader>
                   <SheetTitle>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center">
                       {header.brand?.logo?.src && (
                         <img
                           src={header.brand.logo.src}
                           alt={header.brand.logo.alt || header.brand.title}
-                          className="w-8"
+                          className="h-8 w-auto"
                         />
-                      )}
-                      {header.brand?.title && (
-                        <span className="text-xl font-bold">
-                          {header.brand?.title || ""}
-                        </span>
                       )}
                     </div>
                   </SheetTitle>
@@ -281,7 +266,15 @@ export default function Header({ header }: { header: HeaderType }) {
                             target={item.target || ""}
                             className="flex items-center gap-1"
                           >
-                            {item.title}
+                            {item.titleImage ? (
+                              <img
+                                src={item.titleImage.src}
+                                alt={item.titleImage.alt || item.title}
+                                className={item.titleImage.className || "h-4 w-auto"}
+                              />
+                            ) : (
+                              item.title
+                            )}
                             {item.icon && (
                               <Icon
                                 name={item.icon}

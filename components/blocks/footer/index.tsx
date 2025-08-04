@@ -14,18 +14,13 @@ export default function Footer({ footer }: { footer: FooterType }) {
             <div className="flex w-full max-w-96 shrink flex-col items-center justify-between gap-6 lg:items-start">
               {footer.brand && (
                 <div>
-                  <div className="flex items-center justify-center gap-2 lg:justify-start">
+                  <div className="flex items-center justify-center lg:justify-start">
                     {footer.brand.logo && (
                       <img
                         src={footer.brand.logo.src}
                         alt={footer.brand.logo.alt || footer.brand.title}
-                        className="h-11"
+                        className="h-11 w-auto"
                       />
-                    )}
-                    {footer.brand.title && (
-                      <p className="text-3xl font-semibold">
-                        {footer.brand.title}
-                      </p>
                     )}
                   </div>
                   {footer.brand.description && (
