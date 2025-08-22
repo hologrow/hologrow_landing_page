@@ -42,3 +42,6 @@ Makefile
 .wrangler
 wrangler.toml
 supabase
+
+public/sw*
+public/swe-worker*
