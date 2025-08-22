@@ -4,9 +4,9 @@ import mdx from "@next/mdx";
 import withSerwistInit from "@serwist/next";
 
 const withSerwist = withSerwistInit({
-  // Add any Serwist specific configuration here
   swSrc: "app/sw.ts",
   swDest: "public/sw.js",
+  register: true,
 });
 
 const withBundleAnalyzer = bundleAnalyzer({
