@@ -1,6 +1,13 @@
 import bundleAnalyzer from "@next/bundle-analyzer";
 import createNextIntlPlugin from "next-intl/plugin";
 import mdx from "@next/mdx";
+import withSerwistInit from "@serwist/next";
+
+const withSerwist = withSerwistInit({
+  // Add any Serwist specific configuration here
+  swSrc: "app/sw.ts",
+  swDest: "public/sw.js",
+});
 
 const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === "true",
@@ -42,4 +49,6 @@ const configWithMDX = {
   },
 };
 
-export default withBundleAnalyzer(withNextIntl(withMDX(configWithMDX)));
+export default withSerwist(
+  withBundleAnalyzer(withNextIntl(withMDX(configWithMDX)))
+);
